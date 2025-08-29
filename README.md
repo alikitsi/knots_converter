@@ -1,4 +1,5 @@
 # knots_converter
 
-this is my first ever project on github
-I used python 
+a simple python program that converts km/h and mph to knots and vice versa
+
+this is my first project on github
