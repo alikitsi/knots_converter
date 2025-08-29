@@ -1,9 +1,13 @@
-speed = float(input('enter speed: '))
-unit = input('is this in km/h or mph? ')
-if unit.lower() == "km/h" :
-    converted = speed * 0.539957
+speed = float(input("enter speed in knots: "))
+unit = input('do you want to convert this to (k)m/h or (m)ph? ')
+if unit.lower() == 'k':
+    converted = speed * 1.852
+    print(f'speed is {converted} km/h')
 
-elif unit.lower() == "mph" :
-    converted = speed * 0.868976
+elif unit.lower() == 'm' :
+    converted = speed * 1.15078
+    print(converted)
+    print(f'speed is {converted} mph')
 
-print(f"speed is {converted} knots")
+else :
+    print('unit not recognised')
