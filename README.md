@@ -1,3 +1,4 @@
 # knots_converter
 
-this is my first project on github
+this is my first ever project on github
+I used python 
