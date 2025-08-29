@@ -6,7 +6,6 @@ if unit.lower() == 'k':
 
 elif unit.lower() == 'm' :
     converted = speed * 1.15078
-    print(converted)
     print(f'speed is {converted} mph')
 
 else :
